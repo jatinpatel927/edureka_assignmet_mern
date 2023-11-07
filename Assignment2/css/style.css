@@ -12,7 +12,7 @@ body {
     width: 100vw;
     height: 480px;
 
-    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(79 7 7)),url('../images/bgimg.png');
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 0%), rgb(79 7 7)), url('../images/bgimg.png');
     background-blend-mode: multiply;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,16 @@ header {
     height: 60px;
 }
 
-
+#btn_createacc {
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+    background-color: transparent;
+    color: #FFFFFF;
+    position: relative;
+    left: 6px;
+    bottom: 1px;
+}
 
 .nav-menu {
     width: 60vw;
@@ -75,9 +84,8 @@ header {
 }
 
 .logo {
-    width: 123px;
-    height: 123px;
-    color: #eb2929;
+    width: 110px;
+    height: 110px;
     background-color: white;
     font-size: 80px;
     font-weight: 700;
@@ -85,10 +93,15 @@ header {
     border-radius: 50%;
     margin: auto;
     margin-top: 60px;
+    text-align: center;
+    font: normal normal 600 70px/106px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+    grid-template-columns: auto;
 }
 
 .search-box {
-    color: #636f88;
     width: 245px;
     height: 60px;
     border: none;
@@ -97,10 +110,13 @@ header {
     outline: none;
     font-weight: bold;
     font-size: 16px;
+    font: normal normal normal 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
 }
 
 .search-box2 {
-    color: #636f88;
     width: 477px;
     height: 60px;
     border: none;
@@ -109,6 +125,11 @@ header {
     outline: none;
     font-weight: bold;
     font-size: 16px;
+    cursor: pointer;
+    font: normal normal normal 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    opacity: 1;
 }
 
 /* for search icon */
@@ -127,6 +148,7 @@ header {
 /* search icon done here */
 #second-section {
     margin: 50px 0 50px 0;
+
 }
 
 .container {
@@ -139,31 +161,37 @@ header {
 }
 
 .second-section-title {
-    color: #192f60;
     font-size: 30px;
     font-weight: 600;
+    font: normal normal bold 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
 }
 
 .second-section-title-para {
-    color: #8c96ab;
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
 }
 
-.custom-card{
+.custom-card {
     background-color: white;
-  border: none;
-  box-shadow: 0px 3px 6px #00000029;
-  overflow: hidden;
-  transition: box-shadow 0.2s;
-  margin: 15px;
-  /* padding: 20px; */
-  width: 360px;
-  height: 160px;
+    border: none;
+    box-shadow: 0px 3px 6px #00000029;
+    overflow: hidden;
+    transition: box-shadow 0.2s;
+    margin: 15px;
+    /* padding: 20px; */
+    width: 360px;
+    height: 160px;
 }
 
-.custum-card > div > img {
-  width: 100%;
-  display: block;
-  margin-left: -12px;
+.custum-card>div>img {
+    width: 100%;
+    display: block;
+    margin-left: -12px;
 }
 
 
@@ -179,13 +207,21 @@ header {
 
 .card-title {
     font-size: 18px;
-    color: #192f60;
+
     margin-bottom: 4px;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
 }
 
 .card-para {
     font-size: 14px;
-    color: #8c96ab;
+
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
 }
 
 @media only screen and (max-width: 1200px) {
